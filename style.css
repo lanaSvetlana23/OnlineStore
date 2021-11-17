@@ -114,6 +114,7 @@
         font-weight: bold;
         line-height: 150%;
         letter-spacing: 1px;
+        text-decoration: none;
     }
     
     .category_item:nth-child(2) {
