@@ -93,7 +93,7 @@
     }
     
     .category_item:first-child {
-        background-image: url(./image/women.png), linear-gradient(45deg, #211616B2, #C4C4C4);
+        background-image: url(./image/women.jpg), linear-gradient(45deg, #211616B2, #C4C4C4);
         background-blend-mode: multiply;
     }
     
@@ -118,17 +118,17 @@
     }
     
     .category_item:nth-child(2) {
-        background-image: url(./image/man_2.png), linear-gradient(45deg, #211616B2, #C4C4C4);
+        background-image: url(./image/man_2.jpg), linear-gradient(45deg, #211616B2, #C4C4C4);
         background-blend-mode: multiply;
     }
     
     .category_item:nth-child(3) {
-        background-image: url(./image/kids.png), linear-gradient(45deg, #211616B2, #C4C4C4);
+        background-image: url(./image/kids.jpg), linear-gradient(45deg, #211616B2, #C4C4C4);
         background-blend-mode: multiply;
     }
     
     .category_item:last-child {
-        background-image: url(./image/things.png), linear-gradient(45deg, #211616B2, #C4C4C4);
+        background-image: url(./image/things.jpg), linear-gradient(45deg, #211616B2, #C4C4C4);
         background-blend-mode: multiply;
     }
     
@@ -279,6 +279,7 @@
     
     .bottom {
         background-image: url(./image/beach.png);
+        background-size: cover;
     }
     
     .bottom_overlay {
