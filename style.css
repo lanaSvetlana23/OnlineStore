@@ -422,12 +422,12 @@
         flex-direction: row;
     }
     
-    .brand {
+    .footer_txt p {
         color: #FBFBFB;
         font-size: 15px;
     }
     
-    .footer_logo {
+    .footer_button a {
         text-decoration: none;
     }
     
@@ -538,7 +538,6 @@
         justify-content: center;
     }
     
-    .footer_button_instagram {
+    #instagram:hover {
         background-color: #F16D7F;
-        ;
     }
