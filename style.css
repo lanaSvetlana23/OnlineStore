@@ -26,7 +26,7 @@
         align-items: center;
     }
     
-    .menu_logo {
+    .menu_left a {
         text-decoration: none;
         margin-right: 41px;
     }
@@ -84,6 +84,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
     
     .category_item:not(:last-child) {
@@ -97,7 +98,7 @@
         background-blend-mode: multiply;
     }
     
-    .category_text {
+    .category_info h1 {
         color: white;
         text-align: center;
         font-family: sans-serif;
@@ -106,7 +107,16 @@
         letter-spacing: 1px;
     }
     
-    .category__text {
+    .category_info h2 {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    
+    .category_info a {
         color: #ef8891;
         text-align: center;
         font-family: 'Lato', sans-serif;
@@ -144,7 +154,7 @@
         text-align: center;
     }
     
-    .desc {
+    .section_title h1 {
         margin-bottom: 6px;
         color: black;
         font-family: sans-serif;
@@ -153,7 +163,7 @@
         line-height: 100%;
     }
     
-    .paragraph {
+    .section_title p {
         color: #9F9F9F;
         font-family: sans-serif;
         font-size: 17px;
@@ -185,9 +195,10 @@
         width: 315px;
         text-align: left;
         padding-left: 17px;
+        padding-bottom: 25px;
     }
     
-    .icon_paragraph {
+    .icon_info p {
         margin-bottom: 18px;
         /* font-family: sans-serif; */
         font-style: normal;
@@ -198,14 +209,14 @@
         color: #5D5D5D;
     }
     
-    .icon_txt {
+    .icon_info h3 {
         font-size: 14px;
         margin-bottom: 14px;
         font-weight: lighter;
     }
     
-    .icon_price {
-        margin-bottom: 20px;
+    .icon_info strong {
+        /* margin-bottom: 20px; */
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -240,23 +251,23 @@
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
     }
     
-    .aside {
+    .banner {
         background: #222222;
     }
     
-    .container_aside {
+    .container_banner {
         min-height: 341px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     
-    .aside_img {
+    .banner_img {
         padding-bottom: 28px;
         text-align: center;
     }
     
-    .aside_txt {
+    .banner_info h3 {
         padding-bottom: 16px;
         font-style: normal;
         font-weight: 100;
@@ -266,7 +277,7 @@
         text-align: center;
     }
     
-    .aside_paragraph {
+    .banner_info p {
         width: 360px;
         color: #FBFBFB;
         font-style: normal;
