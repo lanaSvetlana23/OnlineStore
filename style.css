@@ -325,7 +325,7 @@
         flex-direction: column;
     }
     
-    .bottom_paragraph {
+    .bottom_txt p {
         font-size: 20px;
         text-align: center;
         width: 359px;
@@ -339,7 +339,7 @@
         line-height: 1.5;
     }
     
-    .line_decor {
+    .bottom_title span {
         font-size: 19px;
         font-weight: normal;
         letter-spacing: normal;
@@ -357,7 +357,7 @@
         flex-direction: row;
     }
     
-    .note {
+    .email_form input {
         width: 256px;
         height: 49px;
         padding-left: 22px;
@@ -371,7 +371,7 @@
         border: none;
     }
     
-    .send {
+    .send_button button {
         width: 100px;
         height: 49px;
         background: #F16D7F;
@@ -383,7 +383,7 @@
         border: none;
     }
     
-    .send:hover {
+    #send:hover {
         -webkit-transform: translate(10px);
         transform: translate(10px);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
