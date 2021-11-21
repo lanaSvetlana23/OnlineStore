@@ -460,8 +460,11 @@
         display: inline-block;
         font-size: 14px;
     }
+    /* .last_child {
+        color: #F16D7F;
+    } */
     
-    .last_child {
+    .home:hover {
         color: #F16D7F;
     }
     
@@ -539,5 +542,17 @@
     }
     
     #instagram:hover {
+        background-color: #F16D7F;
+    }
+    
+    #facebook:hover {
+        background-color: #F16D7F;
+    }
+    
+    #pinterest:hover {
+        background-color: #F16D7F;
+    }
+    
+    #twitter:hover {
         background-color: #F16D7F;
     }
