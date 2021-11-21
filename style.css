@@ -460,9 +460,6 @@
         display: inline-block;
         font-size: 14px;
     }
-    /* .last_child {
-        color: #F16D7F;
-    } */
     
     .home:hover {
         color: #F16D7F;
@@ -555,4 +552,38 @@
     
     #twitter:hover {
         background-color: #F16D7F;
+    }
+    
+    .slider {
+        background: #F7F7F7;
+        height: 777px;
+        position: relative;
+    }
+    
+    .slider_img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .slider_arrow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .prev {
+        width: 47px;
+        height: 47px;
+        background-color: #2A2A2A26;
+        position: absolute;
+        top: 50%;
+    }
+    
+    .next {
+        width: 47px;
+        height: 47px;
+        background-color: #2A2A2A26;
+        position: absolute;
+        right: 0;
+        top: 50%
     }
