@@ -215,6 +215,15 @@
         font-weight: lighter;
     }
     
+    .icon_info a {
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .icon_info a:hover {
+        color: #F16D7F;
+    }
+    
     .icon_info strong {
         /* margin-bottom: 20px; */
         font-style: normal;
