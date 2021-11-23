@@ -469,6 +469,10 @@
         display: inline;
     }
     
+    .new_arrivals {
+        color: #F16D7F;
+    }
+    
     .option {
         margin-top: 51px;
         margin-bottom: 65px;
@@ -478,10 +482,61 @@
         position: relative;
     }
     
-    .filter p {
-        color: #000000;
-        font-weight: 600;
-        font-size: 14px;
+    details {
+        margin-bottom: 20px;
+    }
+    
+     ::-webkit-details-marker {
+        display: none;
+    }
+    
+    summary {
+        display: block;
+        border-left: 10px solid #F16D7F;
+        padding: 10px;
+        outline: none;
+    }
+    
+    .filter {
+        width: 360px;
+        box-sizing: border-box;
+        position: relative;
+        outline: none;
+        border: none;
+    }
+    
+    .filter ::-webkit-details-marker {
+        display: none;
+    }
+    
+    .filter[open] {
+        padding-left: 10px;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    }
+    
+    .filter[open]>summary {
+        color: #F16D7F;
+        outline: none;
+        border: none;
+    }
+    
+    .fiter-content {
+        background-color: #FFFFFF;
+        color: #F16D7F;
+        position: absolute;
+        width: 360px;
+        left: 0;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    }
+    
+    .filter-list li {
+        list-style: none;
+        padding-left: 20px;
+    }
+    
+    .filter-list a {
+        text-decoration: none;
+        color: #6F6E6E;
     }
     
     .choice {
@@ -586,4 +641,13 @@
         position: absolute;
         right: 0;
         top: 50%
+    }
+    
+    .women_collection {
+        position: absolute;
+        min-width: 1141px;
+        height: 600px;
+        background-color: #FFFFFF;
+        border: 3px solid #EAEAEA;
+        margin-top: -60px;
     }
