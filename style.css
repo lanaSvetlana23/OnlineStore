@@ -654,10 +654,10 @@
                     border: none;
                 }
                 
-                .women_collection {
-                    /* position: absolute; */
+                .collection {
+                    position: relative;
                     min-width: 1141px;
-                    height: 600px;
+                    min-height: 600px;
                     background-color: #FFFFFF;
                     border: 3px solid #EAEAEA;
                     margin-top: -60px;
@@ -676,4 +676,108 @@
                 .next:hover {
                     color: #F16D7F;
                     background-color: #FFE4E1;
+                }
+                
+                .collection_women {
+                    width: 641px;
+                    height: 340px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    padding-top: 65px;
+                    text-align: center;
+                    border-bottom: 2px solid #EAEAEA;
+                }
+                
+                #collection_women-p {
+                    margin-bottom: 18px;
+                    padding: 0 10px 0 10px;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 13px;
+                    line-height: 17px;
+                    letter-spacing: 0.1ex;
+                    color: #F16D7F;
+                    opacity: 0.7;
+                }
+                
+                .collection_women p {
+                    padding: 30px 10px 18px 10px;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 13px;
+                    line-height: 17px;
+                    letter-spacing: 0.1ex;
+                    color: #5D5D5D;
+                    opacity: 0.7;
+                }
+                
+                .collection_women h3 {
+                    padding-top: 25px;
+                    font-size: 14px;
+                    font-weight: lighter;
+                    color: #4D4D4D;
+                    opacity: 0.7;
+                }
+                
+                .collection_women a:hover {
+                    color: #F16D7F;
+                }
+                
+                .collection_women strong {
+                    /* margin-bottom: 20px; */
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 19px;
+                    color: #F16D7F;
+                    opacity: 0.7;
+                }
+                
+                .choice_product {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 65px;
+                }
+                
+                .choice_product p {
+                    color: #6F6E6E;
+                    display: inline-block;
+                    font-size: 14px;
+                }
+                
+                .collection_button {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 48px;
+                }
+                
+                .button_text {
+                    background-image: url(./image/bag_product.svg);
+                    background-position: left;
+                    background-position-x: 15px;
+                    background-position-y: 15px;
+                    background-repeat: no-repeat;
+                    width: 215px;
+                    padding: 14px;
+                    background-color: #F7F7F7;
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 0.04em;
+                    color: #F26376;
+                    border: 1px solid #FF6A6A;
+                    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+                }
+                
+                .button_text:hover {
+                    -webkit-transform: translate(10px);
+                    transform: translate(10px);
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
+                }
+                
+                .border {
+                    width: 63px;
+                    height: 3px;
+                    margin-bottom: 12px;
+                    margin: 0 auto;
+                    background-color: #F16D7F;
                 }
