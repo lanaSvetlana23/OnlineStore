@@ -20,18 +20,18 @@
             margin: 0 auto;
         }
         
-        .container_menu {
+        .container__menu {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         
-        .menu_left a {
+        .header__menu-left a {
             text-decoration: none;
             margin-right: 41px;
         }
         
-        .menu_item:not(:last-child) {
+        .header__menu-right img:not(:last-child) {
             margin-right: 33px;
         }
         
@@ -692,7 +692,7 @@
             border-bottom: 2px solid #EAEAEA;
         }
         
-        #collection_women-p {
+        .collection_women-p {
             margin-bottom: 18px;
             padding: 0 10px 0 10px;
             font-style: normal;
@@ -794,7 +794,7 @@
             justify-content: space-between;
         }
         
-        .shopping-card {
+        .shopping__card {
             /* position: relative; */
             width: 650px;
             margin-bottom: 40px;
@@ -803,34 +803,28 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.05);
         }
         
-        .shopping-cardtwo {
-            width: 650px;
-            height: 306px;
-            border: 1px solid #FF6A6A;
-        }
-        
-        .shopping-text {
+        .shopping__text {
             position: relative;
             width: 100%;
             padding-left: 40px;
             padding-top: 30px;
         }
         
-        .shopping-text h4 {
+        .shopping__text h4 {
             padding-bottom: 42px;
             opacity: 0.7;
         }
         
-        .shopping-text p {
+        .shopping__text p {
             padding-bottom: 6px;
             color: #575757;
         }
         
-        .price_decor {
+        .shopping__text-price {
             color: #FF6A6A;
         }
         
-        .quality_decor {
+        .shopping__text-quality {
             margin-left: 25px;
             padding: 2px 15px;
             border: 1px solid #EAEAEA;
@@ -853,11 +847,11 @@
             flex-direction: column;
         }
         
-        .shopping-adress {
+        .shopping__adress {
             width: 360px;
         }
         
-        .shopping-adress h5 {
+        .shopping__adress h5 {
             margin-bottom: 15px;
             opacity: 0.5;
         }
@@ -883,38 +877,13 @@
             background-color: grey;
         }
         
-        .shopping-total {
+        .shopping__total {
             width: 360px;
             height: 240px;
             background-color: #F5F3F3;
         }
         
-        .subtotal {
-            padding-top: 39px;
-            padding-left: 218px;
-            font-size: 11px;
-            opacity: 0.8;
-        }
-        
-        .grandtotal {
-            padding-top: 20px;
-            padding-left: 153px;
-            margin-bottom: 35px;
-            font-size: 16px;
-            opacity: 0.8;
-        }
-        
-        #grandtotal-decor {
-            color: #FF6A6A;
-        }
-        
-        .hr {
-            width: 275px;
-            color: #E2E2E2;
-            margin: 0 auto;
-        }
-        
-        .shopping-total button {
+        .shopping__total button {
             height: 50px;
             width: 273px;
             margin-top: 20px;
@@ -924,10 +893,35 @@
             color: #FBFBFB;
         }
         
-        .shopping-total button:hover {
+        .shopping__total button:hover {
             -webkit-transform: translate(10px);
             transform: translate(10px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        
+        .shopping__total-sub {
+            padding-top: 39px;
+            padding-left: 218px;
+            font-size: 11px;
+            opacity: 0.8;
+        }
+        
+        .shopping__total-grand {
+            padding-top: 20px;
+            padding-left: 153px;
+            margin-bottom: 35px;
+            font-size: 16px;
+            opacity: 0.8;
+        }
+        
+        .grandtotal-decor {
+            color: #FF6A6A;
+        }
+        
+        .hr {
+            width: 275px;
+            color: #E2E2E2;
+            margin: 0 auto;
         }
         
         .clearcon {
@@ -938,14 +932,14 @@
             opacity: 0.8;
         }
         
-        .clearcon-button button {
+        .clearcon__button button {
             padding: 16px 40px;
             font-size: 13px;
             background: transparent;
             opacity: 0.8;
         }
         
-        .clearcon-button button:hover {
+        .clearcon__button button:hover {
             transform: translate(10px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
         }

@@ -6,32 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/aabec26b01.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
     <header class="header">
-        <div class="container container_menu">
-            <div class="menu_left">
+        <div class="container header__menu">
+            <div class="header__menu-left">
                 <a href="index.html"><img class="small-rotate" src="image/circle.png" alt="logo"></a>
                 <img src="image/seek.png" alt="seek">
             </div>
-            <div class="menu_right">
-                <img class="menu_item" src="image/menu.png" alt="header_menu">
-                <img class="menu_item" src="image/man.png" alt="man">
-                <a href="card.html"><img class="menu_item" src="image/basket.png" alt="basket"></a>
+            <div class="header__menu-right">
+                <img src="image/menu.png" alt="header_menu">
+                <img src="image/man.png" alt="man">
+                <a href="card.html"> <img class="menu_item" src="image/basket.png" alt="basket"></a>
             </div>
         </div>
     </header>
+
     <main>
         <nav class="nav">
             <div class="container">
-                <div class="nav_content">
-                    <div class="nav_txt">
+                <div class="nav__content">
+                    <div class="nav__content-p">
                         <p>NEW ARRIVALS </p>
                     </div>
-                    <ul class="nav_link">
+                    <ul class="nav__link">
                         <li> <a href="index.html"><span class="home">HOME /</span></a></li>
                         <li> <a href="https://www2.hm.com/ru_ru/muzhchiny.html"><span class="home">MEN / </span> </a></li>
                         <li> <a href="https://www2.hm.com/nl_nl/index.html"><span class="home">NEW ARRIVALS</span></a></li>
@@ -56,7 +58,7 @@
         <section class="container">
             <div class="collection">
                 <div class="collection_women">
-                    <p id="collection_women-p">WOMEN COLLECTION</p>
+                    <p class="collection_women-p">WOMEN COLLECTION</p>
                     <div class="border"></div>
                     <h3>MOSCHINO CHEAP AND CHIC</h3>
                     <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional
@@ -111,28 +113,29 @@
                 </div>
             </div>
         </section>
+
         <section class="bottom">
-            <div class="bottom_overlay">
-                <div class="container container_bottom">
-                    <div class="bottom_content">
-                        <div class="bottom_img">
+            <div class="overlay">
+                <div class="container bottom__container">
+                    <div class="bottom__container-left">
+                        <div class="bottom__container-left-img">
                         </div>
-                        <div class="bottom_txt">
+                        <div class="bottom__container-left-txt">
                             <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<em> a pulvinar purus condimentum“</em></p>
                         </div>
                     </div>
-                    <div class="bottom_right">
-                        <div class="bottom_form">
-                            <div class="bottom_title">
+                    <div class="bottom__container-right">
+                        <div class="bottom__container-right-form">
+                            <div class="bottom__container-right-form-title">
                                 <h2>SUBSCRIBE<br> <span>FOR OUR NEWLETTER AND PROMOTION</span></h2>
                             </div>
                         </div>
-                        <form action="#" class="form_content">
-                            <div class="botton_btn">
-                                <div class="email_form">
+                        <form action="#">
+                            <div class="botton__btn">
+                                <div class="botton__btn-form">
                                     <input type="email" placeholder="Enter Your Email">
                                 </div>
-                                <div id="send" class="send_button">
+                                <div class="botton__btn-send">
                                     <button type="submit">Submit</button>
                                 </div>
                             </div>
@@ -141,7 +144,6 @@
                 </div>
             </div>
         </section>
-
     </main>
 
     <footer class="footer">

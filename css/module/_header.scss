@@ -1,0 +1,23 @@
+.header {
+    background: $header-color;
+    padding: 19px 0;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-left a {
+            text-decoration: none;
+            margin-right: 41px;
+        }
+        &-right img:not(:last-child) {
+            margin-right: 33px;
+        }
+    }
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0 10px;
+    width: 100%;
+    margin: 0 auto;
+}
