@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card</title>
+    <title>registration</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/aabec26b01.js" crossorigin="anonymous"></script>
 </head>
@@ -19,7 +19,7 @@
                 <img src="image/seek.png" alt="seek">
             </div>
             <div class="header__menu-right">
-                <a> <img src="image/menu.png" alt="header_menu"></a>
+                <a href="#"> <img src="image/menu.png" alt="header_menu"></a>
                 <a href="registration.html"> <img src="image/man.png" alt="man"></a>
                 <a href="card.html"> <img class="menu_item" src="image/basket.png" alt="basket"></a>
             </div>
@@ -32,66 +32,60 @@
             <div class="container">
                 <div class="nav__content">
                     <div class="nav__content-p">
-                        <p>SHOPPING CART </p>
+                        <p>REGISTRATION </p>
                     </div>
                 </div>
         </section>
 
-        <section class="container">
-            <div class="shopping">
-                <div class="shopping__card">
-                    <div class="shopping__card-a">
-                        <img src="image/card_man.jpg" alt="card_man">
-                    </div>
-                    <div class="shopping__text">
-                        <h4>MANGO PEOPLE <br>T-SHIRT</h4>
-                        <i class="fas fa-times close"></i>
-                        <p>Price:<span class="shopping__text-price"> $300</span> </p>
-                        <p>Color: Red</p>
-                        <p>Size: Xl </p>
-                        <p>Quantity:<span class="shopping__text-quality">2</span></p>
-                    </div>
-                </div>
-                <div class="shopping__adress">
-                    <h5>SHIPPING ADRESS</h5>
-                    <form class="form">
-                        <input type="text" placeholder="Bangladesh">
-                        <input type="text" placeholder="State">
-                        <input type="text" placeholder="Postcode / Zip">
-                        <button>GET A QUOTE</button>
+        <section class="container registration">
+            <div class="registration__content">
+                <div class="registration__form">
+                    <form action="#">
+                        <div class="information__content">
+
+                            <h4> Your Name</h4>
+                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <div class="information__content-radio">
+                            <input id="radio-1" type="radio" name="radio" value="1" checked>
+                            <label for="radio-1">Male</label>
+                            <input id="radio-2" type="radio" name="radio" value="2">
+                            <label for="radio-2">Female</label>
+                        </div>
+
+                        <div class="information__content">
+                            <h4> Login details</h4>
+                            <input type="email" placeholder="Your Email">
+                            <input type="password" placeholder="Password" maxlength="25" size="40" name="password">
+
+                            <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                        </div>
+
+
+
+                        <div class="information__button">
+
+                            <button class="information__button-text">JOIN NOW</button>
+                        </div>
                     </form>
                 </div>
-                <div class="shopping__card">
-                    <div class="shopping__card-a">
-                        <img src="image/card_man2.jpg" alt="card_man">
-                    </div>
-                    <div class="shopping__text">
-                        <h4>MANGO PEOPLE<br> T-SHIRT</h4>
-                        <i class="fas fa-times close"></i>
-                        <p>Price:<span class="shopping__text-price"> $300</span> </p>
-                        <p>Color: Red</p>
-                        <p>Size: Xl </p>
-                        <p>Quantity:<span class="shopping__text-quality">2</span></p>
-                    </div>
 
-                </div>
-                <div class="shopping__total">
-                    <p class="shopping__total-sub">SUB TOTAL&nbsp;&nbsp; $900</p>
-                    <p class="shopping__total-grand">GRAND TOTAL&nbsp;&nbsp; <span class="grandtotal-decor">  $900</p>
-         <hr class="hr"></hr>
-         <button><a href="#"></a>PROCEED TO CHECKOUT</button> 
-    </div>          
-      <div class="clearcon">
-            <div class="clearcon__button">
-                <button>CLEAR SHOPPING CART</button>
-                </div>
-            <div class="clearcon__button">
-                <button>CONTINUE SHOPPING</button>
-                </div>
             </div>
+            <div class="registration__text">
+                <h3>LOYALTY HAS ITS PERKS</h3>
+                <p>Get in on the loyalty program where you can earn points and<br> unlock serious perks. Starting with these as soon as you join:</p>
+                <ul>
+                    <li>15% off welcome offer</li>
+                    <li>Free shipping, returns and exchanges on all orders</li>
+                    <li>$10 off a purchase on your birthday</li>
+                    <li>Early access to products</li>
+                    <li>Exclusive offers & rewards</li>
+                </ul>
+            </div>
+
+
         </section>
-
-
         <section class="bottom">
             <div class="overlay">
                 <div class="container bottom__container">
@@ -106,20 +100,20 @@
                         <div class="bottom__container-right-form">
                             <div class="bottom__container-right-form-title">
                                 <h2>SUBSCRIBE<br> <span>FOR OUR NEWLETTER AND PROMOTION</span></h2>
-                </div>
-            </div>
-            <form action="#">
-                <div class="botton__btn">
-                    <div class="botton__btn-form">
-                        <input type="email" placeholder="Enter Your Email">
+                            </div>
+                        </div>
+                        <form action="#">
+                            <div class="botton__btn">
+                                <div class="botton__btn-form">
+                                    <input type="email" placeholder="Enter Your Email">
+                                </div>
+                                <div class="botton__btn-send">
+                                    <button type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="botton__btn-send">
-                        <button type="submit">Submit</button>
-                    </div>
                 </div>
-            </form>
-            </div>
-            </div>
             </div>
         </section>
     </main>
@@ -138,7 +132,7 @@
                         <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i></a>
                     </div>
                     <div id="pinterest" class="footer_button">
-                        <a href="https://nl.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="https://nl.pinterest.com/"> <i class="fab fa-pinterest-p"></i></a>
                     </div>
                     <div id="twitter" class="footer_button">
                         <a href="https://www.twitter.com/"> <i class="fab fa-twitter"></i></a>
@@ -148,7 +142,4 @@
         </div>
     </footer>
 
-
-    </div>
-    </div>
-    </section>
+</body>
