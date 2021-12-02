@@ -155,6 +155,10 @@ body {
     flex-direction: column;
 }
 
+.icon:hover {
+    transform: scale(1.1);
+}
+
 .section_wrap {
     margin-bottom: 49px;
     display: flex;

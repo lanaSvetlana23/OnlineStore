@@ -9,6 +9,12 @@
             text-decoration: none;
             margin-right: 41px;
         }
+        &-left img:hover {
+            transform: scale(1.5);
+        }
+        &-right img:hover {
+            transform: scale(1.5);
+        }
         &-right a:not(:last-child) {
             margin-right: 33px;
         }

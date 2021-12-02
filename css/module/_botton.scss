@@ -33,6 +33,11 @@
             background-repeat: no-repeat;
             background-image: url(../image/manager.jpg);
             background-position: 120px;
+            border-radius: 50%;
+            transition: 0.8s;
+            &:hover {
+                transform: rotate(360deg);
+            }
         }
         &-left {
             margin-bottom: 100px;
