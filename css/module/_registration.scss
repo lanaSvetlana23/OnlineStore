@@ -129,9 +129,20 @@
             }
         }
         
-        .registration__animation {
+        .animation {
+            @include flex;
+        }
+        
+        .home {
+            background-image: url(../image/home-solid.svg);
+            background-repeat: no-repeat;
             width: 100px;
             height: 100px;
+        }
+        
+        .registration__animation {
+            width: 90px;
+            height: 90px;
             background-image: url(../image/truck-solid.svg);
             background-repeat: no-repeat;
             opacity: 0.8;
