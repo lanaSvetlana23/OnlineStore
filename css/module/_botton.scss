@@ -3,15 +3,7 @@
     background-size: cover;
     &__container {
         min-height: 448px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
+        @include flex;
         &-right-form {
             margin-top: 100px;
             margin-bottom: 32px;

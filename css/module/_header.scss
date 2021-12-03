@@ -2,9 +2,7 @@
     background: $header-color;
     padding: 19px 0;
     &__menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex;
         &-left a {
             text-decoration: none;
             margin-right: 41px;
