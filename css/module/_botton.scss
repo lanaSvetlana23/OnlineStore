@@ -76,7 +76,7 @@
     -ms-flex-direction: row;
     flex-direction: row;
     &-form input {
-        width: 256px;
+        min-width: 256px;
         height: 49px;
         padding-left: 22px;
         background: $color-form;
@@ -89,7 +89,7 @@
         border: none;
     }
     &-send button {
-        width: 100px;
+        min-width: 100px;
         height: 49px;
         background: $color-pink;
         font-size: 14px;
