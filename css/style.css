@@ -630,6 +630,12 @@ body {
   display: inline;
 }
 
+.nav__link li:not(:last-child)::after {
+  padding: 5px;
+  color: black;
+  content: "/";
+}
+
 .home:hover {
   color: #F16D7F;
 }
@@ -1025,6 +1031,7 @@ summary {
   margin-left: 25px;
   padding: 2px 15px;
   border: 1px solid #F8F3F4;
+  width: 39px;
 }
 
 .shopping__adress {
