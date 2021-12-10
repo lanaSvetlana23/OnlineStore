@@ -222,7 +222,26 @@ body {
   position: relative;
 }
 
+.icon__catalog {
+  background-color: #F8F8F8;
+  width: 360px;
+  height: 100%;
+  margin: 0 0 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .icon:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.icon__catalog:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }

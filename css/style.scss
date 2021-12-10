@@ -158,9 +158,22 @@
                     position: relative;
                 }
                 
+                .icon__catalog {
+                    background-color: #F8F8F8;
+                    width: 360px;
+                    height: 100%;
+                    margin: 0 0 30px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                
                 .icon:hover {
                     transform: scale(1.1);
-                    // box-shadow: 0px 5px 8px 0px #00FF00;
+                    //  box-shadow: 0px 5px 8px 0px #00FF00;
+                }
+                
+                .icon__catalog:hover {
+                    transform: scale(1.1);
                 }
                 
                 .section_wrap {
