@@ -676,6 +676,20 @@
                     background-color: #F16D7F;
                 }
                 
+                .page-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                }
+                
+                .main {
+                    flex: 1 0 auto;
+                }
+                
+                .footer {
+                    flex: 0 0 auto;
+                }
+                
                 @import 'module/shopping';
                 @import 'module/registration';
                 @media screen and (max-width:1024px) {
