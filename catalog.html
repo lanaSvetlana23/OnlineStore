@@ -8,6 +8,7 @@
     <title>Catalog</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/aabec26b01.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -85,7 +86,34 @@
                     </div>
                 </nav>
                 <a href="registration.html"> <img src="image/man.png" alt="man"></a>
-                <a href="card.html"> <img class="menu_item" src="image/basket.png" alt="basket"></a>
+
+                <span class="cartIconWrap">
+                    <a href="card.html"> <img class="menu_item" src="image/forma.png" alt="basket"></a>
+                    <!-- <img class="cartIcon" src="images/cart.png" alt=""> -->
+                    <span class = "itemNumber">0</span>
+                </span>
+
+                <!-- <a href="card.html"> <img class="menu_item" src="image/forma.png" alt="basket"></a> -->
+                <!-- <div class="basket hidden"> -->
+                <div class="basket">
+                    <div class="basketRow basketHeader">
+                        <div>Название товара</div>
+                        <div>Количество</div>
+                        <div>Цена за шт.</div>
+                        <div>Итого</div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="basketTotal">
+                        Товаров в корзине на сумму: $
+                        <span class="basketTotalValue">0</span>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -163,27 +191,29 @@
         <section class="section">
             <div class="container">
                 <div class="section_wrap">
-                    <div class="icon__catalog">
+                    <!-- <div class="icon__catalog"> -->
+                    <div class="icon">
                         <div class="icon_foto">
                             <img src="image/foto_a.jpg" alt="man_jacket">
-                            <!-- <div class="over">
-                                <button class="btn">Add to cart</button>
-                            </div> -->
+                            <div class="over">
+                                <button class="btn" id="btn_1">Add to cart</button>
+                            </div>
                         </div>
-                        <div class="icon_info">
+                        <div class="icon_info" id="icon_info_1">
                             <h3> <a href="product.html">ELLERY X M'O CAPSULE</a></h3>
                             <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                             <strong>$52.00</strong>
                         </div>
                     </div>
+                    <!-- </div> -->
                     <div class="icon">
                         <div class="icon_foto">
                             <img src="image/man_shirt.jpg" alt="man_shirt">
                             <div class="over">
-                                <button class="btn">Add to cart</button>
+                                <button class="btn" id="btn_2">Add to cart</button>
                             </div>
                         </div>
-                        <div class="icon_info">
+                        <div class="icon_info" id="icon_info_2">
                             <h3> <a href="product.html">ELLERY X M'O CAPSULE</a></h3>
                             <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                             <strong>$52.00</strong>
@@ -193,10 +223,10 @@
                         <div class="icon_foto">
                             <img src="image/foto_c.jpg" alt="man_panama">
                             <div class="over">
-                                <button class="btn">Add to cart</button>
+                                <button class="btn" id="btn_3">Add to cart</button>
                             </div>
                         </div>
-                        <div class="icon_info">
+                        <div class="icon_info" id="icon_info_3">
                             <h3> <a href="product.html">ELLERY X M'O CAPSULE</a></h3>
                             <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                             <strong>$52.00</strong>
@@ -206,10 +236,10 @@
                         <div class="icon_foto">
                             <img src="image/foto_d.jpg" alt="man_trousers">
                             <div class="over">
-                                <button class="btn">Add to cart</button>
+                                <button class="btn" id="btn_4">Add to cart</button>
                             </div>
                         </div>
-                        <div class="icon_info">
+                        <div class="icon_info" id="icon_info_4">
                             <h3> <a href="product.html">ELLERY X M'O CAPSULE</a></h3>
                             <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                             <strong>$52.00</strong>
@@ -219,10 +249,10 @@
                         <div class="icon_foto">
                             <img src="image/man_whiteshirt.jpg" alt="man_whiteshirt">
                             <div class="over">
-                                <button class="btn">Add to cart</button>
+                                <button class="btn" id="btn_5">Add to cart</button>
                             </div>
                         </div>
-                        <div class="icon_info">
+                        <div class="icon_info" id="icon_info_5">
                             <h3> <a href="product.html">ELLERY X M'O CAPSULE</a></h3>
                             <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                             <strong>$52.00</strong>
@@ -232,10 +262,10 @@
                         <div class="icon_foto">
                             <img src="image/man_cap.jpg" alt="man_cap">
                             <div class="over">
-                                <button class="btn">Add to cart</button>
+                                <button class="btn" id="btn_6">Add to cart</button>
                             </div>
                         </div>
-                        <div class="icon_info">
+                        <div class="icon_info" id="icon_info_6">
                             <h3> <a href="product.html">ELLERY X M'O CAPSULE</a></h3>
                             <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                             <strong>$52.00</strong>
@@ -245,10 +275,10 @@
                         <div class="icon_foto">
                             <img src="image/man_belt.jpg" alt="man_belt">
                             <div class="over">
-                                <button class="btn">Add to cart</button>
+                                <button class="btn" id="btn_7">Add to cart</button>
                             </div>
                         </div>
-                        <div class="icon_info">
+                        <div class="icon_info" id="icon_info_7">
                             <h3> <a href="product.html">ELLERY X M'O CAPSULE</a></h3>
                             <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                             <strong>$52.00</strong>
@@ -258,10 +288,10 @@
                         <div class="icon_foto">
                             <img src="image/man_leatherjacket.jpg" alt="man_leatherjacket">
                             <div class="over">
-                                <button class="btn">Add to cart</button>
+                                <button class="btn" id="btn_8">Add to cart</button>
                             </div>
                         </div>
-                        <div class="icon_info">
+                        <div class="icon_info" id="icon_info_8">
                             <h3> <a href="product.html">ELLERY X M'O CAPSULE</a></h3>
                             <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                             <strong>$52.00</strong>
@@ -271,10 +301,10 @@
                         <div class="icon_foto">
                             <img src="image/man_shorts.jpg" alt="man_shorts">
                             <div class="over">
-                                <button class="btn">Add to cart</button>
+                                <button class="btn" id="btn_9">Add to cart</button>
                             </div>
                         </div>
-                        <div class="icon_info">
+                        <div class="icon_info" id="icon_info_9">
                             <h3> <a href="product.html">ELLERY X M'O CAPSULE</a></h3>
                             <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                             <strong>$52.00</strong>
@@ -357,6 +387,6 @@
             </div>
         </div>
     </footer>
-
+    <script src="basket.js"></script>
 
 </body>
