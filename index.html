@@ -86,7 +86,34 @@
                         </div>
                     </nav>
                     <a href="registration.html"> <img src="image/man.png" alt="man"></a>
-                    <a href="card.html"> <img class="menu_item" src="image/forma.png" alt="basket"></a>
+                    <!-- <a href="card.html"> <img class="menu_item" src="image/forma.png" alt="basket"></a> -->
+                    <span class="cartIconWrap">
+                        <a href="card.html"> <img class="menu_item" src="image/forma.png" alt="basket"></a>
+                        <!-- <img class="cartIcon" src="images/cart.png" alt=""> -->
+                        <span class = "itemNumber">0</span>
+                    </span>
+
+                    <!-- <a href="card.html"> <img class="menu_item" src="image/forma.png" alt="basket"></a> -->
+                    <!-- <div class="basket hidden"> -->
+                    <div class="basket">
+                        <div class="basketRow basketHeader">
+                            <div>Название товара</div>
+                            <div>Количество</div>
+                            <div>Цена за шт.</div>
+                            <div>Итого</div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="basketTotal">
+                            Товаров в корзине на сумму: $
+                            <span class="basketTotalValue">0</span>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -331,6 +358,7 @@
             </div>
         </footer>
     </div>
+    <script src="basket.js"></script>
 </body>
 
 </html>
