@@ -1,0 +1,161 @@
+.shopping {
+    height: 100%;
+    margin-top: 96px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    &__card {
+        width: 650px;
+        margin-bottom: 40px;
+        height: 306px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.05);
+    }
+    &__card:hover {
+        transform: scale(1.1);
+    }
+    &__text {
+        position: relative;
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 30px;
+        h4 {
+            padding-bottom: 42px;
+            opacity: 0.7;
+        }
+        p {
+            padding-bottom: 6px;
+            color: $color-gray;
+        }
+        &-price {
+            color: $color-pink;
+        }
+        &-quality {
+            margin-left: 25px;
+            padding: 2px 15px;
+            border: 1px solid $color-white;
+            width: 39px;
+        }
+    }
+    &__adress {
+        width: 360px;
+        h5 {
+            margin-bottom: 15px;
+            opacity: 0.5;
+        }
+    }
+    &__total {
+        width: 360px;
+        height: 240px;
+        background-color: $color-white;
+        button {
+            height: 50px;
+            width: 273px;
+            margin-top: 20px;
+            margin-left: 42px;
+            border: none;
+            background-color: $color-pink;
+            color: $color-white;
+            &:hover {
+                -webkit-transform: translate(10px);
+                transform: translate(10px);
+                -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            }
+        }
+        &-sub {
+            padding-top: 39px;
+            padding-left: 218px;
+            font-size: 11px;
+            opacity: 0.8;
+        }
+        &-grand {
+            padding-top: 20px;
+            padding-left: 153px;
+            margin-bottom: 35px;
+            font-size: 16px;
+            opacity: 0.8;
+        }
+    }
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    cursor: pointer;
+    padding-left: 160px;
+    &:hover {
+        color: $color-pink;
+    }
+}
+
+.form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    input {
+        margin-bottom: 21px;
+        padding-left: 15px;
+        height: 44px;
+        width: 358px;
+    }
+    button {
+        height: 34px;
+        width: 100px;
+        border-radius: 0px;
+        background: transparent;
+        border: 1px solid $color-lightgrey;
+        font-size: 11px;
+        padding: 10px;
+        &:hover {
+            background-color: grey;
+        }
+    }
+}
+
+.grandtotal-decor {
+    color: $color-pink;
+}
+
+.hr {
+    width: 275px;
+    color: $color-lightgrey;
+    margin: 0 auto;
+}
+
+.clearcon {
+    width: 650px;
+    margin-bottom: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    opacity: 0.8;
+    &__button button {
+        padding: 16px 40px;
+        font-size: 13px;
+        background: transparent;
+        opacity: 0.8;
+        &:hover {
+            -webkit-transform: translate(10px);
+            transform: translate(10px);
+            -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
