@@ -21,8 +21,11 @@ function addToCard(event) {
     let iconChildrenH3 = iconChildren[0].children[0].innerHTML;
     let iconChildrenStrong = iconChildren[2].innerHTML;
     let productCount = document.querySelector('.productCount' + infoId);
+    let amount = iconChildrenStrong.replace('$', '');
+    let totalAmount = document.querySelector('.productTotalRow' + infoId);
     if (productCount) {
         productCount.innerHTML = Number(productCount.innerHTML) + 1;
+        totalAmount.innerHTML = Number(totalAmount.innerHTML) + Number(amount);
     } else {
         let basketItem = `<div class="basketRow">
                             <div>${iconChildrenH3}</div>
@@ -31,7 +34,7 @@ function addToCard(event) {
                             </div>
                             <div>${iconChildrenStrong}</div>
                             <div>
-                                <span class="productTotalRow" data-total_productId="${infoId}">100500</span>
+                                <span class="productTotalRow${infoId}">${Number(amount)}</span>$
                             </div>
                         </div>`;
         let addDiv = document.querySelector('.addDiv');
@@ -43,4 +46,14 @@ function addToCard(event) {
 let buttons = document.querySelectorAll(".btn");
 buttons.forEach(button => {
     button.addEventListener("click", addItem)
+});
+
+let cartIconWrap = document.querySelector(".cartIconWrap");
+
+cartIconWrap.addEventListener("mouseover", (event) => {
+    document.querySelector(".basket").classList.remove('hidden');
+});
+
+cartIconWrap.addEventListener("mouseout", (event) => {
+    document.querySelector(".basket").classList.add('hidden');
 });
